@@ -1,0 +1,26 @@
+<h3>{{viewTitle}}</h3>
+<form action="/" method="POST" autocomplete="off">
+<input type="hidden" name="_id" value="{{karyawan._id}}">
+    <div class="form-group">
+        <label>Nama</label>
+        <input type="text" class="form-control" name="Nama" placeholder="Nama" value="{{karyawan.Nama}}">
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>Email</label>
+            <input type="text" class="form-control" name="Email" placeholder="Email" value="{{karyawan.Email}}">
+        </div>
+        <div class="form-group col-md-6">
+            <label>Telepon</label>
+            <input type="text" class="form-control" name="Telepon" placeholder="Telepon" value="{{karyawan.Telepon}}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Alamat</label>
+        <input type="text" class="form-control" name="Alamat" placeholder="Alamat" value="{{karyawan.Alamat}}">
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-info"><i class="fa fa-database" aria-hidden="true"></i> Submit</button>
+        <a class="btn btn-secondary" href="/list"><i class="fa fa-list-alt"></i> View All</a>
+    </div>
+</form>

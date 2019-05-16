@@ -1,0 +1,23 @@
+{
+  "name": "webdevelop",
+  "version": "1.0.0",
+  "description": "Mini Challenge",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "Dicko Andrean",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.1",
+    "email-validator": "^2.0.4",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.1.0",
+    "express-handler": "^0.2.0",
+    "jquery": "^3.4.1",
+    "mongoose": "^5.5.8",
+    "validator": "^10.11.0"
+  }
+}
